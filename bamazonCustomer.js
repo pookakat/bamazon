@@ -95,4 +95,3 @@ function updateQuantity(product, quantity){
     connection.query(`UPDATE products SET stock_quantity = '${quantity}' WHERE product_name='${product}'`);
 }
 
-// SELECT * FROM products WHERE product_name = 'product name'
