@@ -4,7 +4,7 @@
   "description": "This is my SQL homework for the week, a fantastic Amazon-esque marketplace. So awesome, it's not just Amazon.. it's BAMazon!",
   "main": "bamazonCustomer.js",
   "scripts": {
-    "start":"node server.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,8 @@
   "homepage": "https://github.com/pookakat/bamazon#readme",
   "dependencies": {
     "inquirer": "^6.3.1",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "wait-for-stuff": "^1.4.0",
+    "wait.for": "^0.6.6"
   }
 }
